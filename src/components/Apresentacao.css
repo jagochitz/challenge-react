@@ -1,0 +1,68 @@
+.app-apresentacao {
+    background: url("/src/images/bg-header.png") no-repeat;
+    max-width: 100%;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 15px;
+}
+
+.app-apresentacao h3 {
+    font-size: 15px;
+    padding-top: 60px;
+}
+
+.app-apresentacao h1 {
+    font-family: 'Noto-Sans-Bold', sans-serif;
+    font-weight: 1000;
+    font-size: 50px;
+    text-align: center;
+    padding: 0px;
+}
+
+.app-apresentacao p {
+    font-size: 20px;
+}
+
+.buttons-apresentacao {
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons-apresentacao-item button{
+    background: none;
+    color: white;
+    border: 1px solid white;
+    width: 150px;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+    margin-bottom: 200px;
+}
+
+.buttons-apresentacao-item button:hover{
+    background-color: #FA4A0C;
+    border: none;
+}
+
+.cells-mini {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    margin-top: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+.cells-mini img{
+    box-sizing: border-box;
+    width: 40%;
+}

@@ -1,0 +1,19 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu a {
+    margin-right: 100px;
+    transition: .3s;
+}
+
+.menu a:last-child {
+    margin-right: 30px;
+}
+
+.menu a:hover {
+    color: #FA4A0C;
+}

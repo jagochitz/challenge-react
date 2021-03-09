@@ -1,0 +1,39 @@
+.how-to-work {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.tituloHow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create-account {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 450px;
+}
+
+.create-account h1, h3 {
+    margin-bottom: 35px;
+}
+
+.create-account h3 {
+    font-size: 20px;
+    color: #FA4A0C;
+}
+
+.create-account h1 {
+    font-size: 30px;
+    color: #152B42;
+}
+
+.create-account p {
+    font-size: 20px;
+    color: #737373;
+}
