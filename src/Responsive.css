@@ -1,4 +1,4 @@
-@media (max-width: 749px){
+@media screen and (max-width: 749px){
     .header-container {
         display: flex;
         flex-direction: column;
@@ -6,7 +6,7 @@
         justify-content: center;
     }
 }
-@media (max-width: 543px){
+@media screen and (max-width: 543px){
     .header-container{
         font-size: .8rem;
     }

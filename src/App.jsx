@@ -1,5 +1,6 @@
 import './index.css'
 import './Responsive.css'
+import './Mobile.css'
 import React from 'react'
 
 import Header from './components/Header'

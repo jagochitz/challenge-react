@@ -31,3 +31,16 @@
 .explore-text h1, h3 {
     margin-bottom: 35px;
 }
+
+@media (max-width: 768.9px) {
+    .explore-main{
+        flex-direction: column;
+        width: 90%;
+    }
+    .explore-text {
+        width: 90%;
+    }
+    .cell-explore {
+        width: 130%;
+    }
+}

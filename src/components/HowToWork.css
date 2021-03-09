@@ -37,3 +37,20 @@
     font-size: 20px;
     color: #737373;
 }
+
+@media (max-width: 768.9px) {
+    .tituloHow {
+        margin-top: 20%;
+    }
+    .how-to-work{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .create-account {
+        margin-top: 50px;
+        width: 90%;
+    }
+    .cell-login img {
+        width: 130%;
+    }
+}

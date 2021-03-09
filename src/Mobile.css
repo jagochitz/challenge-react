@@ -1,0 +1,17 @@
+@media screen and (max-width: 768.9px) {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-container .menu a {
+    margin: 20px;
+  }
+
+  .app-apresentacao {
+    width: 70%;
+    font-size: .8rem;
+  }
+}

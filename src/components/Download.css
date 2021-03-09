@@ -46,3 +46,38 @@
     background-color: #FA4A0C;
     border: none;
 }
+
+@media (max-width: 768.9px) {
+
+    .download-main {
+        box-sizing: border-box;
+        background-color: #252b42;
+        background-image: none;
+        width: 90%;
+        height: 600px;
+        margin-top: 10px;
+    }
+    .download-main h1 {
+        width: 90%;
+        color: white;
+        font-size: 40px;
+    }
+    .download-main p {
+        width: 90%;
+        font-size: 16px;
+    }
+    .buttons-download {
+        width: 90%;
+        justify-content: center;
+    }
+    .buttons-download-item {
+        margin-right: -35px;
+    }
+    .buttons-download-item button {
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .buttons-download-item button:hover {
+        background-color: #FA4A0C;
+    }
+}
