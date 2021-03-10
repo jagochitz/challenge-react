@@ -40,12 +40,22 @@
     transition: .3s;
     margin-bottom: 200px;
     margin-right: 50px;
+    outline: none;
 }
 
 .buttons-download-item button:hover{
     background-color: #FA4A0C;
     border: none;
+    outline: none;
 }
+
+.buttom-mobile {
+    display: none;
+}
+
+.p-mobile {
+    display: none;
+} 
 
 @media (max-width: 768.9px) {
 
@@ -76,8 +86,24 @@
     .buttons-download-item button {
         font-weight: bold;
         font-size: 18px;
+        outline: none;
     }
     .buttons-download-item button:hover {
         background-color: #FA4A0C;
+        outline: none;
+    }
+    .buttom-desk {
+        display: none;
+    }
+    .buttom-mobile {
+        display: flex;
+    }
+    .p-desk {
+        display: none;
+    }
+    .p-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }

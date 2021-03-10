@@ -42,5 +42,9 @@
     }
     .cell-explore {
         width: 130%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }

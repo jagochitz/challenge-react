@@ -39,9 +39,7 @@
 }
 
 @media (max-width: 768.9px) {
-    .tituloHow {
-        margin-top: 20%;
-    }
+
     .how-to-work{
         display: flex;
         flex-direction: column-reverse;
@@ -51,6 +49,10 @@
         width: 90%;
     }
     .cell-login img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 130%;
     }
 }

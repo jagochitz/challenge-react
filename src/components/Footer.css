@@ -24,3 +24,16 @@
     color: #5C5C5C;
     margin-right: 30px;
 }
+
+@media (max-width: 768.9px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+    }
+    .footer-logo {
+        display: none;
+    }
+}
