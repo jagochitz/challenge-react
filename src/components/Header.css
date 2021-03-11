@@ -5,6 +5,10 @@
     padding: 10px;
 }
 
+.menu-mobile, .menu-mobile-itens {
+    display: none;
+}
+
 .menu a {
     margin-right: 100px;
     transition: .3s;

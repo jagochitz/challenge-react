@@ -23,4 +23,5 @@ export default props =>
                 <a href="#">Contact</a>
             </nav>
         </section>
-    </header>
+    </header>;
+
