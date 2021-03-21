@@ -3,9 +3,10 @@ import './HowToWork.css'
 import CellLogin from '../images/Cell-login.png'
 
 export default props => 
-    <div>
-        <h2 className="tituloHow">How the app works</h2>
       <section className="how-to-work">
+        <div className="tituloHow">
+          <h2>How the app works</h2>
+        </div>
         <div className="cell-login">
           <img src={CellLogin} alt="celular-login" />
         </div>
@@ -15,5 +16,4 @@ export default props =>
           <p>An account is created with your email and a desired password</p>
         </div>
       </section>
-    </div>
     

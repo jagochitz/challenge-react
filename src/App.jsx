@@ -5,6 +5,7 @@ import React from 'react'
 
 import Header from './components/Header'
 import Apresentacao from './components/Apresentacao'
+import Cellduplo from './components/Cellduplo'
 import HowToWork from './components/HowToWork'
 import EspacamentoMaior from './components/EspacamentoMaior'
 import Explore from './components/Explore'
@@ -15,13 +16,13 @@ import Footer from './components/Footer'
 export default () => (
     <main className="app">
         <Header/>
-        <Apresentacao/>
+        {/*<Cellduplo/>
         <EspacamentoMaior/>
         <HowToWork/>
         <Explore/>
         <Checkout/>
         <Download/>
-        <Footer/>
+        <Footer/>*/}
     </main>
     
 )
