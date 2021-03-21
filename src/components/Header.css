@@ -2,20 +2,33 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 1440px;
+    height: 156px;
     padding: 10px;
+}
+
+.img-logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 206px;
+    height: 101.76px;
+    padding-left: 70px;
 }
 
 .menu-mobile, .menu-mobile-itens {
     display: none;
 }
-
-.menu a {
-    margin-right: 100px;
-    transition: .3s;
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 580px;
+    height: 48px;
 }
-
-.menu a:last-child {
-    margin-right: 30px;
+.menu a {
+    margin-right: 94px;
+    transition: .3s;
 }
 
 .menu a:hover {
