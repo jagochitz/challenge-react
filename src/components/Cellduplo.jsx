@@ -1,8 +1,10 @@
 import React from 'react'
-import CellsMini from "../images/Cells-mini.png";
+import Duplo from '../images/Cells-mini.png'
 import './Cellduplo.css'
 
 export default props =>
-    <div className="cells-mini">
-        <img src={CellsMini} alt="" />
+    <div className="cells">
+        <div>
+            <img src={Duplo} alt=""/>
+        </div>
     </div>

@@ -22,7 +22,7 @@ export default (props) => (
             <a href="#">Home</a>
             <a href="#">Product</a>
             <a href="#">Faq</a>
-            <a href="#">Contact</a>
+            <a className="ultimo" href="#">Contact</a>
         </nav>
       </div>
       <div className="break"></div>
@@ -34,17 +34,17 @@ export default (props) => (
                 <h1>you can order form Bella Onojie</h1>
             </div>
             <div className="apres-p">
-                <p>Download the bella onoje's food app now on</p>
+                <h4>Download the bella onoje's food app now on</h4>
             </div>
         </div>
-        <div className="buttons-apresentacao">
-          <div className="buttons-apresentacao-item">
-            <button>Playstore</button>
+          <div className="buttons-apresentacao">
+            <div className="buttons-apresentacao-item">
+              <button>Playstore</button>
+            </div>
+            <div className="buttons-apresentacao-item">
+              <button>App store</button>
+            </div>
           </div>
-          <div className="buttons-apresentacao-item">
-            <button>App store</button>
-          </div>
-        </div>
       </div>
   </header>
 );

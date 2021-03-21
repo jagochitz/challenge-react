@@ -1,4 +1,60 @@
-
+.how-to-work {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1440px;
+    height: 807px;
+}
+.cell-login {
+    position: relative;
+    align-self: flex-start;
+    justify-self: flex-start;
+    width: 302px;
+    height: 525px;
+}
+.create-account {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 1440px;
+    height: 507px;
+}
+.create-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: center;
+    justify-content: space-around;
+    width: 568px;
+    height: 280px;
+}
+.create-text h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+}
+.create-text h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.create-text p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    width: 467px;
+    color: #737373;
+}
 
 @media (max-width: 768.9px) {
 

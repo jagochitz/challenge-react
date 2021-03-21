@@ -1,0 +1,15 @@
+.cells {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 848px;
+    height: 940px;
+    margin: 0 auto;
+    margin-top: -280px;
+}
+.cells img {
+    width: 748px;
+    height: 840px;
+}
+

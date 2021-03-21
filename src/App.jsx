@@ -12,16 +12,18 @@ import Explore from './components/Explore'
 import Checkout from './components/Checkout'
 import Download from './components/Download'
 import Footer from './components/Footer'
+import TituloHow from './components/TituloHow'
 
 export default () => (
     <main className="app">
         <Header/>
-        {/*<Cellduplo/>
+        <Cellduplo/>
         <EspacamentoMaior/>
+        <TituloHow/>
         <HowToWork/>
         <Explore/>
         <Checkout/>
-        <Download/>
+        {/*<Download/>
         <Footer/>*/}
     </main>
     
