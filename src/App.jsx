@@ -23,8 +23,8 @@ export default () => (
         <HowToWork/>
         <Explore/>
         <Checkout/>
-        {/*<Download/>
-        <Footer/>*/}
+        <Download/>
+        <Footer/>
     </main>
     
 )

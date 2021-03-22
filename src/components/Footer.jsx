@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import FooterLogo from '../images/image-footer.png'
+import FooterLogo from '../images/Bella-Olonje-logo.png'
 import Twitter from '../images/Twitter-vector.png'
 import Fb from '../images/Fb-vector.png'
 import Instagram from '../images/Instagram-vector.png'

@@ -22,7 +22,7 @@ export default (props) => (
             <a href="#">Home</a>
             <a href="#">Product</a>
             <a href="#">Faq</a>
-            <a className="ultimo" href="#">Contact</a>
+            <a id="ultimo" href="#">Contact</a>
         </nav>
       </div>
       <div className="break"></div>

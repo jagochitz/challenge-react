@@ -1,4 +1,109 @@
+.download-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 509px;
+}
+.download-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 516px;
+    background-image: url(../images/Download-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.download-text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 860px;
+    height: 135px;
+}
+.download-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 523px;
+    height: 77px;
+}
+.download-title h2 {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+.download-subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 860px;
+    height: 58px;
+}
+.download-subtitle .p-desk{
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+}
+.download-subtitle .p-mobile {
+    display: none;
+}
+.buttons-download {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 331px;
+    height: 64px;
+}
+.buttons-download-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 173px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    transition: .3s;
+}
+.buttons-download-item:not(#down-btn-ultimo) {
+    margin-right: 10px;
+}
+.buttons-download-item button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 173px;
+    height: 60px;
+    border-radius: 10px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+}
+.buttons-download-item:hover {
+    background-color: #FA4A0C;
+    border: none;
+}
 
+.buttons-download .buttom-mobile {
+    display: none;
+}
 
 @media (max-width: 768.9px) {
 

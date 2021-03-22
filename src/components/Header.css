@@ -50,7 +50,6 @@
     justify-content: center;
     width: 580px;
     height: 48px;
-    
 }
 
 .menu a {
@@ -59,7 +58,7 @@
     line-height: 28px;
     letter-spacing: 0.2px;
     color: var(--texto);
-    margin-right: 94px;
+    
     transition: .3s;
 }
 
@@ -67,10 +66,9 @@
     color: var(--laranja);
 }
 
-.menu .ultimo{
-    margin-right: -300px;
+.menu a:not(#ultimo) {
+    margin-right: 94px;
 }
-
 .break {
     flex-basis: 100%;
 }

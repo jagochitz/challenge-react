@@ -1,4 +1,48 @@
-
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1210px;
+    height: 133px;
+    margin: 25px auto
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 206px;
+    height: 78px;
+}
+.footer-logo img {
+    width: 246px;
+    height: 102px;
+}
+.sociais-medias {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 171px;
+    height: 41px;
+}
+.sociais-medias img {
+    width: 41px;
+    height: 41px;
+}
+.copywright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 18px;
+}
+.copywright p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #5C5C5C;
+}
 
 @media (max-width: 768.9px) {
     .footer {
