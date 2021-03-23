@@ -55,7 +55,7 @@
     width: 467px;
     color: #737373;
 }
-@media (max-width: 768.9px) {
+/*@media (max-width: 768.9px) {
 
     .checkout-main {
         flex-direction: column;
@@ -71,4 +71,4 @@
         justify-content: center;
         width: 130%;
     }
-}
+}*/

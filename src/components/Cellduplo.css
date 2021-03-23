@@ -13,3 +13,18 @@
     height: 840px;
 }
 
+@media (max-width: 415.9px) {
+    .cells {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 422px;
+        height: 492px;
+        margin-top: -200px;
+    }
+    .cells img {
+        width: 120%;
+        height: 120%;
+        margin-left: -100px;
+    }
+}

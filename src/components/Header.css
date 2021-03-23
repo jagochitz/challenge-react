@@ -177,3 +177,106 @@
     background-color: var(--laranja);
     border: none;
 }
+
+@media (max-width: 415.9px){
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 414px;
+        height: 112px;
+    }
+    .header-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 382px;
+        height: 78px;
+    }
+    .menu-mobile{
+        display: flex;
+    }
+    .menu-mobile img {
+        width: 40px;
+        height: 32px;
+    }
+    .apres-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        box-sizing: border-box;
+        background-image: none;
+        flex-direction: column;
+        width: 414px;
+        height: 778px;
+    }
+    .text-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 411px;
+        height: 282px;
+    }
+    .text-content h3 {
+        font-size: 16px;
+        color: #737373;
+    }
+    .apres-p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width:362px;
+        height: 96px;
+    }
+    .apres-p h4 {
+        text-align: center;
+        font-size: 24px;
+        color: #737373;
+    }
+    .apres-titulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 411px;
+        height: 148px;
+    }
+    .apres-titulo h1 {
+        text-align: center;
+        color: #252B42;
+        font-size: 36px;
+        line-height: 42.5px;
+        letter-spacing: .2px;
+    }
+    .buttons-apresentacao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 411px;
+    }
+    .buttons-apresentacao-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 391px;
+        height: 128px;
+    }
+    .buttons-apresentacao-item button{
+        color: #fa4a0c;
+        border: 1px solid #fa4a0c;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        transition: .3s;
+        outline: none;
+    }
+    .buttons-apresentacao-item button:hover {
+        color: white;
+        background-color: #fa4a0c;
+    }
+}

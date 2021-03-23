@@ -104,7 +104,7 @@
 .buttons-download .buttom-mobile {
     display: none;
 }
-
+/*
 @media (max-width: 768.9px) {
 
     .download-main {
@@ -154,4 +154,4 @@
         align-items: center;
         justify-content: center;
     }
-}
+}*/

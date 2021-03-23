@@ -2,3 +2,10 @@
     margin: 0 auto;
     width: 884px;
 }
+
+@media (max-width: 419.9px) {
+    .espacamento {
+        margin: 0 auto;
+        width: 414px;
+    }
+}

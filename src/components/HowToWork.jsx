@@ -9,9 +9,15 @@ export default props =>
         </div>
         <div className="create-account">
           <div className="create-text">
-            <h3>Create an account</h3>
-            <h1>Create/login to an existing account to get started</h1>
-            <p>An account is created with your email <br/> and a desired password</p>
+            <div className="create-h3">
+              <h3>Create an account</h3>
+            </div>
+            <div className="create-h1">
+              <h1>Create/login to an existing account to get started</h1>
+            </div>
+            <div className="create-h4">
+              <h4>An account is created with your email <br/> and a desired password</h4>
+            </div>
           </div>
         </div>
       </section>
