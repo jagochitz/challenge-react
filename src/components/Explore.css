@@ -59,20 +59,107 @@
     width: 467px;
     color: #737373;
 }
-
-@media (max-width: 768.9px) {
-    .explore-main{
-        flex-direction: column;
-        width: 90%;
+.explore-h3-mobile{
+    display: none;
+}
+@media (max-width: 415.9px) {
+    .explore-main {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        width: 414px;
+        height: 931px;
+        margin-top: 70%;
+        margin-left: auto;
+        padding: 10px 100px;
+        overflow: visible;
+    }
+    .explore-content {
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 74px;
+        width: 414px;
+        height: 931px;
+        padding-left: 20px;
     }
     .explore-text {
-        width: 90%;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 115px;
+        width: 347px;
+        height: 459px;
+        padding-top: 50px;
+    }
+    .explore-h3-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 299px;
+        height: 36px;
+    }
+    .explore-h3 h3{
+        display: none;
+    }
+    .explore-h3-mobile {
+        display: initial;
+    }
+    .explore-h3-mobile h3{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+    }
+    .explore-h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 347px;
+        height: 191px;
+    }
+    .explore-h1 h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+        letter-spacing: .2px;
+        text-align: center;
+        width: 327px;
+        height: 171px;
+    }
+    .explore-h4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 277px;
+        height: 172px;
+        margin-top: 40px;
+    }
+    .explore-h4 h4{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: .2px;
+        text-align: center;
+        width: 257px;
+        height: 152px;
     }
     .cell-explore {
-        width: 130%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        margin-left: 60px;
+        
     }
 }

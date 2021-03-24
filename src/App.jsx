@@ -3,7 +3,6 @@ import './Mobile.css'
 import React from 'react'
 
 import Header from './components/Header'
-import Apresentacao from './components/Apresentacao'
 import Cellduplo from './components/Cellduplo'
 import HowToWork from './components/HowToWork'
 import EspacamentoMaior from './components/EspacamentoMaior'

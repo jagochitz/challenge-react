@@ -55,7 +55,7 @@
     line-height: 38px;
     letter-spacing: 0.2px;
 }
-.download-subtitle .p-mobile {
+.p-mobile {
     display: none;
 }
 .buttons-download {
@@ -104,54 +104,103 @@
 .buttons-download .buttom-mobile {
     display: none;
 }
-/*
-@media (max-width: 768.9px) {
+
+@media (max-width: 415.9px) {
 
     .download-main {
-        box-sizing: border-box;
-        background-color: #252b42;
-        background-image: none;
-        width: 90%;
-        height: 600px;
-        margin-top: 10px;
-    }
-    .download-main h1 {
-        width: 90%;
-        color: white;
-        font-size: 40px;
-    }
-    .download-main p {
-        width: 90%;
-        font-size: 16px;
-    }
-    .buttons-download {
-        width: 90%;
-        justify-content: center;
-    }
-    .buttons-download-item {
-        margin-right: -35px;
-    }
-    .buttons-download-item button {
-        font-weight: bold;
-        font-size: 18px;
-        outline: none;
-    }
-    .buttons-download-item button:hover {
-        background-color: #FA4A0C;
-        outline: none;
-    }
-    .buttom-desk {
-        display: none;
-    }
-    .buttom-mobile {
         display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 418px;
+        height: 564px;
+        margin-top: 60%;
     }
-    .p-desk {
-        display: none;
+    .download-content {
+        background-image: none;
+        background-color: #252B42;
+        width: 418px;
+        height: 564px;
     }
-    .p-mobile {
+    .download-text-content {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 330px;
+        height: 230px;    
+    }
+    .download-title{
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 330px;
+        height: 134px;
+        text-align: center;
     }
-}*/
+    .download-title h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+        letter-spacing: .2px;
+        color: #FFFFFF;
+    }
+    .p-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 265px;
+        height: 96px;
+        text-align: center;
+        margin-top: 5%;
+    }
+    .p-mobile h4 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        color: #BDBDBD;
+        line-height: 38px;
+        letter-spacing: .2px;
+    }
+    .buttons-download {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 339px;
+        height: 64px;
+        margin-top: 5%;
+    }
+    .buttons-download-item.buttom-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 137px;
+        height: 64px;
+        border: 1px solid #FFFFFF;
+        border-radius: 10px;
+        color: #FFFFFF;
+    }
+   .buttons-download-item.buttom-mobile span {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: .2px;
+        outline: none;
+   }
+   #try-ff {
+       width: 186px;
+       height: 60px;
+   }
+   .buttons-download-item.buttom-mobile:hover {
+       background-color: #FA4A0C;
+       border: none;
+   }
+    .buttom-desk {
+        display: none;
+    }
+    
+    .p-desk {
+        display: none;
+    }
+}

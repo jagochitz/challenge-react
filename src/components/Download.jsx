@@ -11,7 +11,9 @@ export default (props) => (
           </div>
           <div className="download-subtitle">
             <h4 className="p-desk">Available on your favorite store. Start your premium experience now</h4>
-            <h4 className="p-mobile">Most calendars are designed for teams</h4>
+            <div className="p-mobile">
+              <h4>Most calendars are designed for teams</h4>
+            </div>
           </div>
         </div>
         <div className="buttons-download">
@@ -22,10 +24,14 @@ export default (props) => (
             <button>App store</button>
           </div>
           <div className="buttons-download-item buttom-mobile">
-            <button>Buy now</button>
+            <button>
+              <span>Buy now</span>
+              </button>
           </div>
-          <div className="buttons-download-item buttom-mobile">
-            <button>Try for free</button>
+          <div id="try-ff" className="buttons-download-item buttom-mobile">
+            <button>
+              <span>Try for free</span>
+            </button>
           </div>
         </div>
       </div>
